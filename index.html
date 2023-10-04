@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      * {
+        box-sizing: border-box;
+        padding: 0%;
+        margin: 0%;
+        font-family: "Outfit", sans-serif;
+      }
+      body {
+        background-color: hsl(216, 43%, 83%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      img {
+        height: 350px;
+        border-radius: 1rem;
+        margin-top: 1rem;
+      }
+      .outside {
+        margin-top: 7rem;
+        background-color: white;
+        width: 380px;
+        border-radius: 1rem;
+      }
+      .inside {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+      .firstPara {
+        font-size: 25px;
+        color: hsl(218, 44%, 22%);
+        margin: 1rem;
+        font-weight: 900;
+      }
+      .secondPara {
+        font-size: 17px;
+        color: hsl(212, 14%, 59%);
+        font-weight: 400;
+        margin-bottom: 3rem;
+      }
+      p {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="outside">
+      <section class="inside">
+        <img src="./images/image-qr-code.png" alt="qr code" />
+        <div class="firstPara">
+          <p>
+            Improve your front-end <br />
+            skills by building projects
+          </p>
+        </div>
+        <br />
+        <div class="secondPara">
+          <p>
+            Scan the QR code to visit Frontend <br />
+            Mentor and take your coding skills to <br />
+            the next level
+          </p>
+        </div>
+      </section>
+    </section>
+  </body>
+</html>
